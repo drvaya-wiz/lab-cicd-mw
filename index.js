@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
     date: today,
     up: `${(Date.now() - dateUp)/1000} seg.`,
     repo: 'https://github.com/drvaya/hello-cloud-run',
-    url: 'https://about.me/dharmeshvaya'
+    url: 'https://about.me/dharmeshvaya',
+    desc: 'Built with Cloud Run @ GDG Ahmedabad'
   });
 });
 
