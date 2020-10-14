@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.json({
     date: today,
     up: `${(Date.now() - dateUp)/1000} seg.`,
-    repo: 'https://github.com/drvaya/hello-cloud-run',
+    repo: 'https://github.com/drvaya-learn/hello-cloud-run',
     url: 'https://about.me/dharmeshvaya',
     desc: 'Built with Cloud Run - Demo for DevFest 2020, thanks for attending !!!'
   });
