@@ -1,4 +1,10 @@
-on: push
+on: 
+  push:
+    branches:
+      - master
+  schedule:
+    - cron:  '0 */15 * * *'
+
 name: Slack Notification Demo
 jobs:
   slackNotification:
