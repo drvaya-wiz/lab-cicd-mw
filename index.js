@@ -6,14 +6,7 @@ const dateUp = Date.now();
 
 app.get('/', (req, res) => {
   const today = new Date();
-
-  res.json({
-    date: today,
-    up: `${(Date.now() - dateUp)/1000} seg.`,
-    repo: 'https://github.com/drvaya-learn/hello-cloud-run',
-    url: 'https://about.me/dharmeshvaya',
-    desc: 'Built with Cloud Run - Sample Demo Page - Thanks 91SpringBoard !!!'
-  });
+  res.sendFile(path.join(__dirname+'/index.html'));  
 });
 
 app.listen(port, () => {
