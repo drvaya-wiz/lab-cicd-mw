@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     up: `${(Date.now() - dateUp)/1000} seg.`,
     repo: 'https://github.com/drvaya-learn/hello-cloud-run',
     url: 'https://about.me/dharmeshvaya',
-    desc: 'Built with Cloud Run - Demo for #TALK, thanks for attending : 04-Mar-2022 !!!'
+    desc: 'Built with Cloud Run - Demo for VESIT - DevOps Session, thanks for attending : 04-Mar-2022 !!!'
   });
 });
 
