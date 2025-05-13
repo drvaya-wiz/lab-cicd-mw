@@ -1,9 +1,9 @@
 name: "wiz-cli"
 on: 
-  repository_dispatch:
-    types: [trigger-my-workflow] # Define a custom event type
-
-
+  push:
+    branches:
+    - main
+    
 jobs:
   wiz-cli-image-scan:
     name: "Wiz-cli Image Scan"
