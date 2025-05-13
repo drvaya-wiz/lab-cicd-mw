@@ -2,7 +2,7 @@ name: "wiz-cli"
 on: 
   push:
     branches:
-    - main
+    - master
     
 jobs:
   wiz-cli-image-scan:
