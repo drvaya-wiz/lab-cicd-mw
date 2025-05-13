@@ -15,8 +15,8 @@ RUN wget https://www.eicar.org/download/eicar-com-2 -O eicar-test.txt
 
 # Copy the local code to the container
 COPY . .
-RUN unzip harmless_test.zip
-CMD ["echo", "Test file downloaded successfully. You can now scan /app/harmless_test.zip"]
+# RUN unzip harmless_test.zip
+CMD ["echo", "Test file downloaded successfully. You can now scan eicar-test.txt"]
 
 # Build production app
 # RUN npm run Build
