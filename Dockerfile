@@ -11,7 +11,7 @@ RUN npm install --only=production
 
 # Download a harmless test file from an online repository
 # RUN wget https://secure.eicar.org/eicarcom2.zip -O harmless_test.zip
-RUN wget https://www.eicar.org/download/eicar-com-2/?wpdmdl=8842&refresh=682385fcd54ee1747158524 -O eicar-test.txt
+RUN wget https://www.eicar.org/download/eicar-com-2 -O eicar-test.txt
 
 # Copy the local code to the container
 COPY . .
